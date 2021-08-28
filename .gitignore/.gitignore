@@ -1,0 +1,19 @@
+Fist Write \\ -- client.lua -- RegisterCommand('help', function()
+    TriggerEvent('chat:addMessage', {
+        color = {255,0,0},
+        multiline = true,
+        args = {'[SERVER]', 'Join the discord for help, https://discord.gg/6WwyxfW9Gf'}
+    })
+end) -- /help
+
+
+-- [SERVER] : Join the discord for help, https://discord.gg/6WwyxfW9Gf
+
+[-- fxmanifest \\ fx_version 'cerulean'
+games { 'rdr3', 'gta5' }
+
+author '! C r O S s !#7818'
+description 'By : ! C r O S s !#7818 | Testing Script Chat | Discord : https://discord.gg/6WwyxfW9Gf'
+version '1.0.0'
+
+client_script 'client.lua'
